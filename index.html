@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>GUARDVIDA</title>
+	<meta charset="utf-8">
+	<meta name="author" content="André Carvalho">
+	<meta name="keywords" content="Saúde,profissional,domicílio,Distrito Federal,médico,geriatra,família,fisioterapeuta,terapiaocupacional,cuidador,idosos,enfermeiro">
+	<meta name="description" content="Empresa especializada em mão de obra na área de saúde para idosos principalmente para atendimento domiciliar">
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+</head>
+<body>
+	<nav id="pag-topo">
+		<a class="a-menu" href="#pag-sobre">SOBRE</a>
+		<a class="a-menu" href="#pag-servicos">SERVIÇOS</a>
+		<a class="a-menu" href="#pag-contato">CONTATO</a>
+	</nav>
+	<header>
+		<img src="img/banner2.png" alt="Tórax de ums pessoa vestida com um jaleco branco segurando um estetoscópio, fundo com sinais indicativos da tela de uma maquina de eletrocardiograma e os dizeres: sua saúde é nossa prioridade.">
+	</header>
+
+	<main id="pag-sobre">
+		<h1>GUARDVIDA</h1>
+		<p>
+			Devido a melhoria da qualidade de vida da população brasileira houve um grande crescimento do contingente de idosos no país. A demanda por seviços para os mais velhos nas últimas décadas tem crescido de forma acentuada. A GuardVida vem com proposta de fazer o link entre as pessoas em busca deses serviços tão importantes e os profissionais qualificados para tais funções.  
+		</p>
+		<p>
+			A Guardvida é uma empresa especializada na prestação de serviços de saúde para idosos. Atendemos em todo o Distrito Federal e possuimos 15 anos de experiência nesse ramo. Nossos profissionais são todos especializados para lidar com o nosso publico alvo. Dispomos de médicos, fisioterapeutas, enfermeiros, técnicos de enfermagem, nutricionistas e terapeutas ocupacionais.
+		</p>
+		<p>
+			Não delegue os cuidados de seu ente querido a uma empresa qualquer, escolha a melhor do mercado! Podemos disponibilizar referências se necessário. Faça um orçamento conosco, o custo de contratar profissionais avulsos pode ser muito maior devido as demandas judiciais trabalhistas futuras, não se arrisque.
+		</p>
+	</main>
+
+	<section id="pag-servicos">
+		<h2>Serviços</h2>
+		<p id="paragrafo-servicos">
+			Nossa sede fica localizada em: SQSW 101 Bloco C Galeria Golden Tower 1° e 2° piso. Venha fazer uma visita, aqui é possivel conhecer toda a nossa metodologia de trabalho. Poderemos esclarecer dúvidas, indicar os profissionais e carga horária adequada as suas necessidades. Basta marcar sua visita no formulário abaixo, nós teremos prazer em atende-lo(a). 
+		</p>
+		
+		<div id="container">
+			<div class="card">
+				<img class="img-servicos" src="img/cuidador.png" alt="Imagem de um cuidaor masculino amparando uma idosa de muletas.">
+				<div class="card-legenda">
+					<p>Cuidador de Idosos: 20 R$</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<img class="img-servicos" src="img/enfermeira.png" alt="Imagem de uma mulher com roupas cirurgicas fazendo a imagem de um coração com as mãos">
+				<div class="card-legenda">
+					<p>Enfermeira: 40 R$</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<img class="img-servicos" src="img/nutricionista.png" alt="Imagem de uma mulher vestida em um jaleco branco em uma mesa com um laptop e alguns legumes ao seu lado">
+				<div class="card-legenda">
+					<p>Nutricionista: 70 R$</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<img class="img-servicos" src="img/terapeuta2.png" alt="Imagem de uma mulher de roupas de enfermagens auxiliando dois idosos sentados levantando alteres de 1kg">
+				<div class="card-legenda">
+					<p>Terapeuta Ocupacional: 30 R$</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="pag-contato">
+		<h2>Contato</h2>
+
+		<p>Deixe seus dados que entraremos em contato. Venha nos fazer uma visita!</p>
+
+		<form>
+			<label for="nome">Nome:</label><br/>
+			<input id="nome" type="text" name="email" required placeholder="Nome Completo"><br/>
+
+			<label for="email">E-mail:</label><br/>
+			<input type="email" name="email" id="email" required placeholder="nome@email.com.br"><br/>
+
+			<label for="servico">Serviço:</label><br/>
+			<select id="servico" name="servico">
+				<option value="">Selecione</option>
+				<option value="">Enfermeiro(a)</option>
+				<option value="">Cuidador(a)</option>
+				<option value="">Terapeuta Ocupacional</option>
+				<option value="">Nutricionista</option>
+			</select><br/>
+
+			<label for="quantidade">Quantidade:</label><br/>
+			<input id="quantidade" type="number" name="quantidade" min="1" max="10" step="1"><br/>
+
+			<fieldset>
+				<legend>Forma:</legend>
+				<input id="presencial" type="radio" name="forma" value="presencial"><label for="presencial">Presencial</label><br/>
+				<input id="online" type="radio" name="forma" value="presencial"><label for="online">Online</label><br/>
+			</fieldset>
+
+			<label for="cometarios">Comentários:</label><br/>
+			<textarea id="comentarios" cols="54" rows="5"></textarea><br/>
+
+			<div id="contato-botoes">
+				<input type="submit" name="btn-salvar" value="SALVAR">
+				<input type="reset" name="btn-cancelar" value="CANCELAR"><br/>
+			</div>
+		</form>
+	</section>
+
+	<footer>
+		<p id="a-topo"><a class="a-footer" href="#pag-topo">TOPO</a></p>
+		<p>Desenvolvido por:<a class="a-footer" href="http://instagram.com" target="_blank">André Carvalho</a>-2023</p>
+	</footer>
+</body>
+
